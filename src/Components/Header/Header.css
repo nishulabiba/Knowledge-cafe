@@ -1,0 +1,57 @@
+.header{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(136, 129, 129);
+}
+.logoo{
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 150px;
+}
+a{
+    text-decoration: none;
+    color: rgb(61, 56, 56);
+    margin-top: 20px;
+    margin-left: 20px;
+    text-shadow: 2px;
+}
+nav a:hover{
+    color: rgb(240, 132, 8);
+}
+.anchor{
+    margin-top: 30px;
+}
+
+.user{
+    margin-top: -15px;
+    margin-left: 20px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+/* Styles for screens smaller than 768px (mobile devices) */
+@media (max-width: 767px) {
+    /* CSS rules go here */
+
+    .header{
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        /* padding-left: 100px;
+        padding-right: 100px;
+        margin-bottom: 20px; */
+        border-bottom: 2px solid rgb(73, 67, 67);
+    }
+    a{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: flex-start;
+        margin-left: 80px;
+    }
+  }

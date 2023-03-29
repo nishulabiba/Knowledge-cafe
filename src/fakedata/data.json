@@ -1,0 +1,42 @@
+[
+  {
+    "id": "6424b60ccd9ed65828faeecd",
+    "name": "Robbins Manning",
+    "title": "How to get your first job as a self-taught programmer",
+    
+    "coverimages": "https://d3nn873nee648n.cloudfront.net/900x600/19776/220-SM961665.jpg",
+    "authorimages": "https://image3.photobiz.com/414/12_20190330163432_10110800_large.jpg",
+    "readtime": "150",
+    "publish": "Thu May 03 1973"
+  },
+  {
+    "id": "6424b60c52a43f1b9bb04a1e",
+    "name": "Mclaughlin Parks",
+    "title": "How to get your first job as a self-taught programmer",
+    
+    "coverimages": "https://d3nn873nee648n.cloudfront.net/900x600/19207/120-SM908836.jpg",
+    "authorimages": "https://image3.photobiz.com/414/12_20190330163432_10110800_large.jpg",
+    "readtime": "180",
+    "publish": "Wed Sep 29 2010 "
+  },
+  {
+    "id": "6424b60cc2d5eba800272598",
+    "name": "Patton Wolf",
+    "title": "How to get your first job as a self-taught programmer",
+    
+    "coverimages": "https://d3nn873nee648n.cloudfront.net/900x600/19207/220-SM908832.jpg",
+    "authorimages": "https://image3.photobiz.com/414/12_20190330163432_10110800_large.jpg",
+    "readtime": "180",
+    "publish": "Sat May 09 1981 "
+  },
+  {
+    "id": "6424b60c06308303e42b4f6a",
+    "name": "Louisa Small",
+    "title": "How to get your first job as a self-taught programmer",
+    
+    "coverimages": "https://d3nn873nee648n.cloudfront.net/900x600/16347/19-SM692129.jpg",
+    "authorimages": "https://image3.photobiz.com/414/12_20190330163432_10110800_large.jpg",
+    "readtime": "160",
+    "publish": "Wed Feb 27 1974 "
+  }
+]
