@@ -1,16 +1,17 @@
 .header{
+    background-color: white;
     height: 80px;
     display: flex;
     justify-content: space-between;
     padding-left: 100px;
     padding-right: 100px;
     margin-bottom: 20px;
-    border-bottom: 2px solid rgb(136, 129, 129);
+    border: 1px solid rgba(17, 17, 17, 0.15);
 }
 .logoo{
     margin-left: 50px;
-    margin-top: 10px;
-    width: 150px;
+    margin-top: 5px;
+    width: 140px;
 }
 a{
     text-decoration: none;
