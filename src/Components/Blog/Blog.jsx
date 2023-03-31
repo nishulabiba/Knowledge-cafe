@@ -1,10 +1,12 @@
 import React from 'react';
 import './Blog.css';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
 
 const Blog = (props) => {
     const {name, title, coverimages, authorimages, publish, readtime } = props.blog;
+
+    const read = props.read;
+
     return (
         <div className='d-flex flex-column gap-3 mx-5 my-3 card rounded-2'>
             <img src={coverimages} alt="" />
@@ -19,13 +21,12 @@ const Blog = (props) => {
                 </div>
                 <div className="">
                      <p>{readtime} mins read 
-                     {/* !-- <FontAwesomeIcon icon={faEnvelope} /> --!  */}
                      </p> 
                 </div>
             </div>
             <h1 className='mt-0'>{title}</h1>
             <p>#beginner #programming</p>
-            <button className='btn mark-btn p-0'>Mark as read</button>
+            <button onClick={()=>read(readtime)} className='btn mark-btn p-0'>Mark as read</button>
         </div>
     );
 };

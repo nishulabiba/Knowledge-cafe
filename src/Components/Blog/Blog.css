@@ -3,3 +3,6 @@
     width: 60px;
     height: 60px;
 }
+.mark-btn:hover {
+    color: purple;
+}
