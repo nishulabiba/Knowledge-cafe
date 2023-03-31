@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Blog from '../Blog/Blog';
+import Bookmark from '../Bookmark/Bookmark';
 import './Blogs.css';
 
 const Blogs = () => {
@@ -22,6 +23,8 @@ const Blogs = () => {
                 }
             </div>
         <div className="side-container">
+
+            <Bookmark ></Bookmark>
 
         </div>
         </div>
