@@ -3,7 +3,7 @@ import './Bookmark.css';
 
 const Bookmark = (props) => {
     console.log(props)
-    const {bookmark, readtime, title, time} = props;
+    const {bookmark, time, b} = props;
     
     const p = bookmark.length;
     return (
@@ -12,8 +12,8 @@ const Bookmark = (props) => {
                 <h5>Spent time on read : {time} mins</h5>
             </div>
             <div className="mt-3 bblogs rounded-3">
-                <h5 id='bookm'>Bookmarked Blogs : {0}</h5>
-                <p>{0}</p>
+                <h5 id='bookm'>Bookmarked Blogs : {b.length}</h5>
+                <p>{b}</p>
             </div>
         </div>
     );

@@ -9,6 +9,7 @@ const Blogs = () => {
 
     const [bookmark, setBookmark] = useState([]);
     const [time, setWatchtime] = useState(0);
+    const [b, setB] = useState([]);
 
     useEffect(()=>{
         fetch('/public/fakedata/data.json')
@@ -17,7 +18,11 @@ const Blogs = () => {
     }, [])
 
 
+    const addBookmark =(title)=>{
+        const newB = [...b, title];
+        setB(newB);
 
+    }
 
     const read =(readtime)=>{
         const newBookmark = [...bookmark, readtime];
@@ -41,6 +46,7 @@ const Blogs = () => {
                     key = {blog.id}
                     blog = {blog}
                     read = {read}
+                    addBookmark = {addBookmark}
                     ></Blog>
                     
                     )
@@ -48,6 +54,7 @@ const Blogs = () => {
             </div>
         <div className="side-container">
             <Bookmark
+            b ={b}
                  time ={time}
                  bookmark= {bookmark}></Bookmark>
             

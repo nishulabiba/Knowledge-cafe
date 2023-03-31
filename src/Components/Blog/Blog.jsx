@@ -7,6 +7,7 @@ const Blog = (props) => {
     const {name, title, coverimages, authorimages, publish, readtime } = props.blog;
 
     const read = props.read;
+    const addBookmark = props.addBookmark;
 
     return (
         <div className='d-flex flex-column gap-3 mx-5 my-3 card rounded-2'>
@@ -22,7 +23,7 @@ const Blog = (props) => {
                 </div>
                 <div className="readbook d-flex gap-1 align-items-center">
                      <p>{readtime} mins read </p>
-                     <button className='btn' onClick={()=>addBookmark}><img src="../../../public/bookmark-regular.svg" alt="" /> </button>
+                     <button className='btn' onClick={()=>addBookmark(title)}><img src="../../../public/bookmark-regular.svg" alt="" /> </button>
 
                 </div>
             </div>
