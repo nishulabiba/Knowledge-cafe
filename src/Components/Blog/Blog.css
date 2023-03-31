@@ -6,3 +6,14 @@
 .mark-btn:hover {
     color: purple;
 }
+.readbook{
+
+}
+.readbook img{
+    width: 20px;
+    padding-bottom: 10px;
+    color: rgba(17, 17, 17, 0.6);;
+}
+p{
+    color:rgba(17, 17, 17, 0.6);
+}
