@@ -6,11 +6,26 @@ import './Blogs.css';
 const Blogs = () => {
     //Loading Data
     const [blogs, setBlogs] = useState([]);
+
+    const [bookmark, setBookmark] = useState([]);
+
     useEffect(()=>{
         fetch('/public/fakedata/data.json')
         .then(res=> res.json())
         .then(data=>setBlogs(data))
     }, [])
+
+
+    useEffect(()=>{
+
+    },[])
+
+  useEffect(()=>{
+    
+  },[])
+
+
+
     return (
         <div className="blogs ">
             <div className='blog-container'>

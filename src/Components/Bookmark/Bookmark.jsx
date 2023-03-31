@@ -8,7 +8,7 @@ const Bookmark = (props) => {
             <div className="time ">
                 <h5>Spent time on read : {} mins</h5>
             </div>
-            <div className="mt-3 bblogs">
+            <div className="mt-3 bblogs rounded-3">
                 <h5 id='bookm'>Bookmarked Blogs : {}</h5>
                 <p>..{}</p>
             </div>
