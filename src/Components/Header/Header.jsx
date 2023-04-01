@@ -5,7 +5,7 @@ import user from '../../../public/R.jpg'
 
 const Header = () => {
     return (
-        <nav className='header '>
+        <nav className='header nav  '>
             <img src={logo} alt="" className='logoo' />
             <div className="anchor ">
             <a href="./shop">Shop</a>

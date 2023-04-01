@@ -46,7 +46,7 @@ const Blogs = (props) => {
 
 
     return (
-        <div className="blogs ">
+        <div className="blogs  ">
             <div className='blog-container'>
                 {
                     blogs.map(blog => <Blog

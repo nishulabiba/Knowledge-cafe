@@ -39,24 +39,29 @@ nav a:hover{
     /* CSS rules go here */
 
     .header{
-        height: 80px;
+        width: 100%;
+        height: auto;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: center;
+        align-items: center;
         /* padding-left: 100px;
         padding-right: 100px;
         margin-bottom: 20px; */
         border-bottom: 2px solid rgb(73, 67, 67);
     }
-    a{
+    a{  margin-top: 15px;
         display: flex;
-        flex-direction: column;
-        justify-content:flex-start;
-        align-items: flex-start;
+        flex-direction: column-reverse;
+        justify-content:center;
         margin-left: 80px;
+        gap: 5px;
     }
     .user{
         margin-top: 20px;
         margin-left: 80px;
+    }
+    .anchor{
+        margin-left: 0;
     }
   }

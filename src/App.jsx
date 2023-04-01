@@ -13,9 +13,6 @@ function App() {
     <div className="App">
       <Header></Header>
       <Blogs ></Blogs>
-      
-      
-
     </div>
   )
 }
