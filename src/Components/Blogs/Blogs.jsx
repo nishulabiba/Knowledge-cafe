@@ -15,7 +15,7 @@ const Blogs = (props) => {
     const [b, setB] = useState([]);
 
     useEffect(()=>{
-        fetch('/public/fakedata/data.json')
+        fetch('data.json')
         .then(res=> res.json())
         .then(data=>setBlogs(data))
     }, [])

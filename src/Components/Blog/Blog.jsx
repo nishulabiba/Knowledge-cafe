@@ -25,7 +25,7 @@ const Blog = (props) => {
                 </div>
                 <div className="readbook d-flex gap-1 align-items-center">
                      <p>{readtime} mins read </p>
-                     <button className='btn' onClick={()=>addBookmark(title)}><img src="../../../public/bookmark-regular.svg" alt="" /> </button>
+                     <button className='btn' onClick={()=>addBookmark(title)}><img src="bookmark-regular.svg" alt="" /> </button>
                      <ToastContainer />
                 </div>
             </div>
