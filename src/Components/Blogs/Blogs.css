@@ -13,3 +13,9 @@
     color: purple;
     
 }
+@media (max-width: 767px){
+    .blogs{
+        display: flex;
+        flex-direction: column;
+    }
+}

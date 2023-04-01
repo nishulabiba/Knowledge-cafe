@@ -2,6 +2,8 @@ import React from 'react';
 import './Blog.css';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faBookmark } from '@fortawesome/free-solid-svg-icons'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'
 
 const Blog = (props) => {
     const {name, title, coverimages, authorimages, publish, readtime } = props.blog;
@@ -24,14 +26,14 @@ const Blog = (props) => {
                 <div className="readbook d-flex gap-1 align-items-center">
                      <p>{readtime} mins read </p>
                      <button className='btn' onClick={()=>addBookmark(title)}><img src="../../../public/bookmark-regular.svg" alt="" /> </button>
-
+                     <ToastContainer />
                 </div>
             </div>
             <h1 className='mt-0'>{title}</h1>
             <p>#beginner #programming</p>
             <button onClick={()=>read(readtime)} className='btn mark-btn p-0'>Mark as read</button>
         </div>
-    );
+    ); 
 };
 
 export default Blog;

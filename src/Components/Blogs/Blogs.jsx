@@ -2,8 +2,11 @@ import React, { useEffect, useState } from 'react';
 import Blog from '../Blog/Blog';
 import Bookmark from '../Bookmark/Bookmark';
 import './Blogs.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-const Blogs = () => {
+const Blogs = (props) => {
+    
     //Loading Data
     const [blogs, setBlogs] = useState([]);
 
@@ -19,9 +22,13 @@ const Blogs = () => {
 
 
     const addBookmark =(title)=>{
+
+       if(b.includes(title)){
+        toast.warn("You've already bookmarked this blog!");
+       }
         const newB = [...b, title];
         setB(newB);
-
+        
     }
 
     const read =(readtime)=>{
@@ -55,6 +62,7 @@ const Blogs = () => {
         <div className="side-container">
             <Bookmark
             b ={b}
+            key = {b.length}
                  time ={time}
                  bookmark= {bookmark}></Bookmark>
             

@@ -2,10 +2,10 @@ import React from 'react';
 import './Bookmark.css';
 
 const Bookmark = (props) => {
-    console.log(props)
-    const {bookmark, time, b} = props;
     
-    const p = bookmark.length;
+    const { time, b} = props;
+    
+    
     return (
         <div className='me-3 sticky-top '>
             <div className="time ">
@@ -16,7 +16,9 @@ const Bookmark = (props) => {
                 <div className="mb-2 p-2 ">
                 <p className='para '>{
                     b.map(c=> 
-                        <p className='mt-2 bg-white p-2 m-2 rounded-3'> {c}</p>
+                        <div className="">
+                            <p className='mt-2 bg-white p-2 m-2 rounded-3 text-center'> {c}</p>
+                        </div>
                         )
                 }</p>
                 </div> 
