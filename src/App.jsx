@@ -6,6 +6,7 @@ import Header from './Components/Header/Header'
 import Blogs from './Components/Blogs/Blogs'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import LastComponent from './Components/LastComponent/LastComponent'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
     <div className="App">
       <Header></Header>
       <Blogs ></Blogs>
+      <LastComponent></LastComponent>
     </div>
   )
 }

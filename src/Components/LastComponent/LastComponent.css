@@ -1,0 +1,15 @@
+h3{ color: aliceblue;
+    padding: 20px ;
+    text-align: center;
+    background-color: #7a6ccc;
+}
+
+.full button{
+    background-color: #ada3e0;
+    border: 0;
+
+}
+
+.full button:hover {
+    background-color: white;
+}

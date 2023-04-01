@@ -61,8 +61,7 @@ const Blogs = (props) => {
             </div>
         <div className="side-container">
             <Bookmark
-            b ={b}
-            key = {b.length}
+                 b ={b}
                  time ={time}
                  bookmark= {bookmark}></Bookmark>
             

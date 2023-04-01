@@ -14,13 +14,13 @@ const Bookmark = (props) => {
             <div className="mt-3 bblogs rounded-3">
                 <h5 id='bookm'>Bookmarked Blogs : {b.length}</h5>
                 <div className="mb-2 p-2 ">
-                <p className='para '>{
+                <div className='para '>{
                     b.map(c=> 
                         <div className="">
                             <p className='mt-2 bg-white p-2 m-2 rounded-3 text-center'> {c}</p>
                         </div>
                         )
-                }</p>
+                }</div>
                 </div> 
             </div>
         </div>

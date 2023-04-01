@@ -6,7 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'
 
 const Blog = (props) => {
-    const {name, title, coverimages, authorimages, publish, readtime } = props.blog;
+    const {id, name, title, coverimages, authorimages, publish, readtime } = props.blog;
 
     const read = props.read;
     const addBookmark = props.addBookmark;
